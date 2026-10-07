@@ -1,0 +1,504 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScholarPath - Scholarship Eligibility System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="brand">
+        <div class="brand-icon">🎓</div>
+        <div class="brand-text">
+            <h1>Scholar<span>Path</span></h1>
+            <p>Your Future · Our Priority</p>
+        </div>
+    </div>
+
+    <nav class="navigation">
+        <a href="#home" class="nav-link active">🏠 Home</a>
+        <a href="#dashboard" class="nav-link">▣ Dashboard</a>
+        <a href="#profile-area" class="nav-link">👤 Profile</a>
+        <a href="#explorer-area" class="nav-link">🔍 Scholarships</a>
+    </nav>
+
+    <div class="user-area">
+        <div class="user-avatar">👤</div>
+        <div>
+            <span class="welcome-small">Welcome</span>
+            <strong class="navbar-student-name">Student</strong>
+        </div>
+        <span class="dropdown-arrow">▼</span>
+    </div>
+</header>
+
+<main>
+
+<!-- HOME / HERO -->
+<section id="home" class="hero-section">
+    <div class="hero-content">
+        <span class="hero-tag">🎓 SCHOLARSHIP DISCOVERY PLATFORM</span>
+
+        <h2>Find Your <span>Scholarship Path</span></h2>
+
+        <p>
+            Discover scholarship opportunities, check your
+            eligibility and find the right financial support
+            for your education.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#eligibility-area" class="primary-button">
+                Check Eligibility →
+            </a>
+            <a href="#explorer-area" class="secondary-button">
+                Explore Scholarships
+            </a>
+        </div>
+
+        <div class="hero-note">
+            ✦ Same Dreams · More Opportunities
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <div class="hero-circle circle-one"></div>
+        <div class="hero-circle circle-two"></div>
+        <div class="graduation-cap">🎓</div>
+        <div class="books">📚</div>
+        <div class="student-illustration">👩🏻‍🎓</div>
+        <div class="floating-card card-one">✓ Eligibility</div>
+        <div class="floating-card card-two">⭐ Recommendation</div>
+    </div>
+</section>
+
+<!-- WELCOME -->
+<section class="welcome-section">
+    <div>
+        <span class="section-label">SCHOLARPATH</span>
+        <h2>Everything You Need in One Place</h2>
+        <p>
+            Manage your profile, discover scholarships,
+            check eligibility and get personalized recommendations.
+        </p>
+    </div>
+</section>
+
+<!-- DASHBOARD FEATURES -->
+<section id="dashboard" class="features-section">
+
+    <article class="feature-card blue-card">
+        <div class="feature-image login-image">
+            <div class="illustration-window">
+                <div class="window-dots">
+                    <span></span><span></span><span></span>
+                </div>
+                <div class="login-person">👤</div>
+                <div class="lock-icon">🔒</div>
+            </div>
+        </div>
+        <div class="feature-content">
+            <span class="feature-icon">🔐</span>
+            <h3>Login</h3>
+            <p>Access your account and continue your scholarship journey.</p>
+            <a href="#login" class="feature-button blue-button">Go to Login →</a>
+        </div>
+    </article>
+
+    <article class="feature-card green-card">
+        <div class="feature-image registration-image">
+            <div class="registration-illustration">
+                <div class="registration-cap">🎓</div>
+                <div class="registration-document">📝</div>
+                <div class="registration-star">⭐</div>
+            </div>
+        </div>
+        <div class="feature-content">
+            <span class="feature-icon">📝</span>
+            <h3>Create Account</h3>
+            <p>Create your student account and start discovering scholarship opportunities.</p>
+            <a href="#registration" class="feature-button green-button">
+                Create Account →
+            </a>
+        </div>
+    </article>
+
+    <article class="feature-card cyan-card">
+        <div class="feature-image dashboard-image">
+            <div class="laptop">
+                <div class="laptop-screen">
+                    <div class="screen-header"></div>
+                    <div class="screen-grid">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="laptop-base"></div>
+            </div>
+        </div>
+        <div class="feature-content">
+            <span class="feature-icon">🏠</span>
+            <h3>Dashboard</h3>
+            <p>Get an overview of your profile, scholarships and recommendations.</p>
+            <a href="#profile-area" class="feature-button cyan-button">
+                Go to Dashboard →
+            </a>
+        </div>
+    </article>
+
+    <article class="feature-card purple-card">
+        <div class="feature-image profile-image">
+            <div class="profile-window">
+                <div class="profile-avatar">👤</div>
+                <div class="profile-lines">
+                    <span></span><span></span><span></span>
+                </div>
+                <div class="settings-icon">⚙</div>
+            </div>
+        </div>
+        <div class="feature-content">
+            <span class="feature-icon">👤</span>
+            <h3>My Profile</h3>
+            <p>View your personal and academic details.</p>
+            <a href="#profile-area" class="feature-button purple-button">
+                Go to Profile →
+            </a>
+        </div>
+    </article>
+
+    <article class="feature-card teal-card">
+        <div class="feature-image eligibility-image">
+            <div class="check-document">
+                <h4>Eligibility Check</h4>
+                <p>✓ Academic Criteria</p>
+                <p>✓ Income Criteria</p>
+                <p>✓ Category Criteria</p>
+                <div class="verified">✓</div>
+            </div>
+        </div>
+        <div class="feature-content">
+            <span class="feature-icon">🎯</span>
+            <h3>Check Eligibility</h3>
+            <p>Find out which scholarships you are eligible for.</p>
+            <a href="#eligibility-area" class="feature-button teal-button">
+                Check Eligibility →
+            </a>
+        </div>
+    </article>
+
+    <article class="feature-card orange-card">
+        <div class="feature-image recommendation-image">
+            <div class="recommendation-document">
+                <div class="mini-cap">🎓</div>
+                <div class="mini-lines">
+                    <span></span><span></span><span></span>
+                </div>
+                <div class="star">⭐</div>
+            </div>
+        </div>
+        <div class="feature-content">
+            <span class="feature-icon">⭐</span>
+            <h3>Recommendations</h3>
+            <p>Get scholarship recommendations based on your profile.</p>
+            <a href="#recommendations" class="feature-button orange-button">
+                View Recommendations →
+            </a>
+        </div>
+    </article>
+
+    <article class="feature-card indigo-card">
+        <div class="feature-image explorer-image">
+            <div class="magnifying-glass">🔍</div>
+            <div class="book-stack">📚</div>
+            <div class="cap-small">🎓</div>
+        </div>
+        <div class="feature-content">
+            <span class="feature-icon">🔎</span>
+            <h3>Scholarship Explorer</h3>
+            <p>Browse available scholarships and find the right one for you.</p>
+            <a href="#explorer-area" class="feature-button indigo-button">
+                Explore Scholarships →
+            </a>
+        </div>
+    </article>
+
+    <article class="feature-card pink-card">
+        <div class="feature-image deadline-image">
+            <div class="calendar">
+                <div class="calendar-top">2026</div>
+                <div class="calendar-grid">
+                    <span>1</span><span>2</span><span>3</span>
+                    <span>4</span><span>5</span><span>6</span>
+                    <span>7</span><span>8</span><span>9</span>
+                </div>
+            </div>
+            <div class="clock">🕐</div>
+        </div>
+        <div class="feature-content">
+            <span class="feature-icon">📅</span>
+            <h3>Deadlines</h3>
+            <p>Stay updated with important application dates and deadlines.</p>
+            <a href="#deadlines" class="feature-button pink-button">
+                View Deadlines →
+            </a>
+        </div>
+    </article>
+
+</section>
+
+<!-- LOGIN -->
+<section id="login" class="module-section">
+    <div class="module-illustration">🔐</div>
+
+    <div class="module-text">
+        <span class="section-label">ACCOUNT ACCESS</span>
+        <h2>Welcome Back</h2>
+        <p>
+            Login to access your ScholarPath dashboard,
+            eligibility results and scholarship recommendations.
+        </p>
+
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="loginEmail">Email Address</label>
+                <input
+                    type="email"
+                    id="loginEmail"
+                    placeholder="Enter your email"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input
+                    type="password"
+                    id="loginPassword"
+                    placeholder="Enter your password"
+                    required>
+            </div>
+
+            <button type="submit" class="large-button">
+                🔐 Login to ScholarPath
+            </button>
+
+            <p id="loginMessage" class="login-message"></p>
+        </form>
+    </div>
+</section>
+
+<!-- REGISTRATION -->
+<section id="registration" class="module-section reverse">
+    <div class="module-text">
+        <span class="section-label">NEW STUDENT</span>
+        <h2>Start Your Scholarship Journey</h2>
+        <p>
+            Create your student account and provide your
+            personal, academic and scholarship eligibility details.
+        </p>
+
+        <button type="button" class="large-button green-large">
+            📝 Create Account →
+        </button>
+
+        <p class="registration-note">
+            Create your account to access personalized scholarship
+            eligibility and recommendations.
+        </p>
+    </div>
+
+    <div class="module-illustration">📝</div>
+</section>
+
+<!-- PROFILE AREA: UPDATED -->
+<section id="profile-area" class="simple-section">
+
+    <span class="section-label">MY PROFILE</span>
+    <h2>Your Student Profile</h2>
+
+    <p>
+        View your personal, academic and scholarship eligibility information.
+    </p>
+
+    <div id="profile-loading-message">
+        Please log in to view your student profile.
+    </div>
+
+    <div id="profile-details" class="profile-details">
+
+        <div class="profile-heading">
+            <div class="profile-heading-avatar">👤</div>
+            <div>
+                <h3 class="profile-name">Student Name</h3>
+                <p>Student ID: <span data-profile="studentId">—</span></p>
+            </div>
+        </div>
+
+        <div class="info-box profile-info-box">
+
+            <div>
+                <strong>👤 Personal Details</strong>
+                <p>Name: <span data-profile="name">—</span></p>
+                <p>Email: <span data-profile="email">—</span></p>
+                <p>Mobile: <span data-profile="mobile">—</span></p>
+                <p>Age: <span data-profile="age">—</span></p>
+                <p>Gender: <span data-profile="gender">—</span></p>
+            </div>
+
+            <div>
+                <strong>🎓 Academic Details</strong>
+                <p>Register Number: <span data-profile="registerNumber">—</span></p>
+                <p>Department: <span data-profile="department">—</span></p>
+                <p>Year: <span data-profile="year">—</span></p>
+                <p>Course: <span data-profile="course">—</span></p>
+                <p>CGPA: <span data-profile="cgpa">—</span></p>
+                <p>Class 12 Percentage: <span data-profile="class12Percentage">—</span></p>
+            </div>
+
+            <div>
+                <strong>🏫 Institution Details</strong>
+                <p>Institution: <span data-profile="institutionName">—</span></p>
+                <p>Institution Type: <span data-profile="institutionType">—</span></p>
+                <p>State: <span data-profile="state">—</span></p>
+            </div>
+
+            <div>
+                <strong>💰 Eligibility Details</strong>
+                <p>Family Income: ₹<span data-profile="familyIncome">—</span></p>
+                <p>Category: <span data-profile="category">—</span></p>
+                <p>First Graduate: <span data-profile="firstGraduate">—</span></p>
+                <p>Disability: <span data-profile="disability">—</span></p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ELIGIBILITY -->
+<section id="eligibility-area" class="simple-section light-blue">
+    <span class="section-label">SMART ELIGIBILITY</span>
+    <h2>Check Your Scholarship Eligibility</h2>
+    <p>
+        Your student information is compared with scholarship eligibility requirements.
+    </p>
+
+    <div class="process-flow">
+        <div>
+            <span>1</span>
+            <strong>Student Profile</strong>
+            <small>Your information</small>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <div>
+            <span>2</span>
+            <strong>Eligibility Check</strong>
+            <small>Criteria matching</small>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <div>
+            <span>3</span>
+            <strong>Eligible Scholarships</strong>
+            <small>Matching results</small>
+        </div>
+    </div>
+
+    <div id="eligibilityResults" class="scholarship-container"></div>
+</section>
+
+<!-- RECOMMENDATIONS -->
+<section id="recommendations" class="simple-section">
+    <span class="section-label">PERSONALIZED</span>
+    <h2>Scholarship Recommendations</h2>
+    <p>
+        Discover scholarship opportunities that match your profile.
+    </p>
+
+    <div class="recommendation-box">
+        <div class="recommendation-icon">⭐</div>
+        <div>
+            <h3>Personalized Scholarship Suggestions</h3>
+            <p>
+                Recommendations are generated from scholarship
+                eligibility information.
+            </p>
+        </div>
+    </div>
+
+    <div id="recommendationResults" class="scholarship-container"></div>
+</section>
+
+<!-- SCHOLARSHIP EXPLORER -->
+<section id="explorer-area" class="simple-section explorer-section">
+    <span class="section-label">EXPLORE</span>
+    <h2>Scholarship Explorer</h2>
+    <p>
+        Browse available scholarship opportunities and review their eligibility information.
+    </p>
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="scholarshipSearch"
+            placeholder="Search scholarships...">
+    </div>
+
+    <div id="scholarshipContainer" class="scholarship-container">
+        <div class="empty-explorer">
+            <div class="empty-icon">🎓</div>
+            <h3>Loading Scholarships...</h3>
+            <p>Please wait while ScholarPath loads scholarship opportunities.</p>
+        </div>
+    </div>
+</section>
+
+<!-- DEADLINES -->
+<section id="deadlines" class="simple-section light-pink">
+    <span class="section-label">IMPORTANT DATES</span>
+    <h2>Scholarship Deadlines</h2>
+    <p>Keep track of important scholarship application dates.</p>
+
+    <div class="deadline-card">
+        <div class="deadline-icon">📅</div>
+        <div>
+            <h3>Application Deadlines</h3>
+            <p>
+                Check individual scholarship details for the latest available deadline.
+            </p>
+        </div>
+    </div>
+
+    <div id="deadlineResults" class="scholarship-container"></div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-brand">
+        <div class="footer-logo">🎓 ScholarPath</div>
+        <p>Your Future · Our Priority</p>
+    </div>
+
+    <div class="footer-message">
+        <p>Empowering students | Enabling brighter futures</p>
+    </div>
+
+    <div class="footer-social">
+        <span>◉</span>
+        <span>◎</span>
+        <span>in</span>
+        <span>▶</span>
+    </div>
+</footer>
+
+<script src="js.js"></script>
+
+</body>
+</html>
